@@ -1,0 +1,62 @@
+.aboutHeader{
+    background-image: url(https://img.freepik.com/free-vector/hospital-lobby-interior_107791-25781.jpg?ga=GA1.1.1761609493.1681633509&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 20rem;
+}
+.aboutInro{
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+}
+.aboutText{
+    width: 50rem;
+    padding-right: 5rem;
+}
+h4{
+    padding-top: 4rem;
+}
+.drThomasImg{
+    height: 300px;
+    width: 300px;
+}
+.aboutHeader_Text{
+    font-family: "Engagement", cursive;
+    font-weight: 500;
+    font-size: 70px;
+    font-style:normal;
+    text-align: center;
+    padding-top:6rem;
+}
+
+@media (max-width:480px){
+    .aboutHeader_Text{
+        line-height: 50px;
+        padding: 2rem;
+    }
+    .aboutHeader{
+        height:fit-content
+    }
+    .aboutInro{
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    h4{
+        text-align: center;
+        padding: 0;
+    }
+    .aboutText{
+        width: auto;
+        padding:20px;
+    }
+    .drThomasImg{
+        width: 200px;
+        height: 200px;
+        padding:20px;
+    }
+}
