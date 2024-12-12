@@ -28,6 +28,12 @@
 h2{
     padding: 5rem;
 }
+li{
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+}
 .logo_Img{
     height:3rem;
 }
@@ -39,16 +45,74 @@ h2{
     gap: 3rem;
 }
 
+.Contact {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-left: 5rem;
+}
+.location_Data span{
+    width: 400px;
+}
+.location_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.location_Data ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location_Data li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.location_Data img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.location_Data span {
+    line-height: 1.5;
+    color: #555;
+}
+
+iframe {
+    width: 50%;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+footer{
+    background-color: rgb(240, 45, 45);
+    padding: 1rem;
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
 
 @media (max-width:480px) {
     .logo_Img{
         height:3rem;
     }
     .Hero{
-        display: inline;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
     .heroText{
         width: 100%;
+
         padding-top: 10rem;
     }
     .hero_img{
@@ -65,5 +129,62 @@ h2{
         text-align: center;
         margin: 3rem;
     }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+    
+    .Contact {
+        padding: 20px;
+        background-color: #ffffff;
+        max-width: 800px;
+        margin: 20px;
+    }
+    
+    .Contact h2 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 20px;
+    }
+    
+    .location_Container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .location_Data ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .location_Data li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .location_Data img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+    
+    .location_Data span {
+        line-height: 1.5;
+        color: #555;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+    
     
 }
