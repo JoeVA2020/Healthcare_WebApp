@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -231,3 +232,231 @@ footer {
         border: 1px solid #ddd;
     }
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d26767; /* Very Light Grey */
+    color: #333333; /* Dark Grey */
+}
+
+.nav_padding {
+    padding-top: 5rem;
+}
+
+.Hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroText {
+    width: 50%;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.hero_img {
+    width: 800px;
+    height: auto;
+    padding: 2rem;
+}
+
+.navbar h3 {
+    margin-left: 1.5rem;
+}
+
+h2 {
+    padding: 5rem;
+    color: #D32F2F; /* Deep Red */
+}
+
+li {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo_Img {
+    height: 3rem;
+}
+
+.card_holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card {
+    background-color: #FFCDD2; /* Soft Pink-Red */
+    border: 1px solid #D32F2F; /* Deep Red */
+}
+
+.card-title {
+    color: #D32F2F; /* Deep Red */
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Emerald Green */
+    border-color: #4CAF50;
+}
+
+.Contact {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-left: 5rem;
+}
+
+.location_Data span {
+    width: 400px;
+    color: #555;
+}
+
+.location_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.location_Data ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location_Data li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.location_Data img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+iframe {
+    width: 50%;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #D32F2F; /* Deep Red */
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+@media (max-width:480px) {
+    .logo_Img {
+        height: 3rem;
+    }
+
+    .Hero {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroText {
+        width: 100%;
+        padding-top: 10rem;
+    }
+
+    .hero_img {
+        width: 100%;
+    }
+
+    .specialities {
+        width: 100%;
+    }
+
+    .specialities .card_holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 3rem;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    .Contact {
+        padding: 20px;
+        background-color: #ffffff;
+        max-width: 800px;
+        margin: 20px;
+    }
+
+    .Contact h2 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 20px;
+    }
+
+    .location_Container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .location_Data ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .location_Data li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .location_Data img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
+
+    .location_Data span {
+        line-height: 1.5;
+        color: #555;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+}
+>>>>>>> 210f030cd4dd369bd99e4ea82d8f21a02ca9e193
