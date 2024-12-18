@@ -250,15 +250,38 @@ footer {
         border-radius: 8px;
         border: 1px solid #ddd;
     }
-    .footer_container{
-        padding: 2rem;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .box2{
-        padding: 1rem;
-    }
-    #footer_links{
-        align-items: center;
-    }
+    .footer_container {
+        flex-direction: column; /* Stack box1 and box2 vertically */
+        gap: 20px; /* Space between stacked boxes */
+      }
+    
+      .footer-item p, .footer-item span, .nav-link {
+        font-size: 12px; /* Reduce text size */
+      }
+    
+      .footer-item img {
+        width: 16px; /* Reduce icon size */
+        height: 16px;
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        flex: 1; /* Share available space with box1 */
+        min-width: 200px; /* Prevent the box from becoming too narrow */
+      }
+      
+      #footer_links {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px; /* Add spacing between links */
+        align-items: center; /* Center-align the links */
+      }
+      
+      #footer_links a {
+        text-align: center; /* Center-align the text of the links */
+        font-size: 14px; /* Default size for links */
+        text-decoration: none; /* Remove underline */
+      }
 }
